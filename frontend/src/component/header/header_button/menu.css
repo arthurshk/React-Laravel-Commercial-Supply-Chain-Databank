@@ -1,0 +1,19 @@
+
+.menu-container {
+    background-color: #d2b48c;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #654321; 
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .menu-link:hover {
+    color: #8b4513; 
+  }

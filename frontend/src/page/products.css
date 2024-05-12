@@ -1,0 +1,61 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .furniture-card {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .furniture-img_url {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .furniture-name {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .furniture-description {
+    color: #555;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart-button,
+  .view-item-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover,
+  .view-item-button:hover {
+    background-color: #0056b3;
+  }
+  .furniture-price {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }

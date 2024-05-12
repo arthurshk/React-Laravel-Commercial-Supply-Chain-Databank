@@ -1,0 +1,31 @@
+.categories-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .category-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .category-name {
+    font-weight: bold;
+    margin: 10px 0;
+  }

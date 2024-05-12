@@ -1,0 +1,13 @@
+.header-container {
+    background-color: rgba(253, 226, 175, 0.829); 
+    color: rgb(194, 110, 1); 
+    padding: 22px 0; 
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .company-name {
+    font-size: 48px; 
+    font-weight: bold; 
+    margin: 0; 
+  }
